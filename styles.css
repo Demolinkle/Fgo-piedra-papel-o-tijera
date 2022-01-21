@@ -16,3 +16,37 @@ html{
     gap: 2rem;
     margin-top: 1rem;
 }
+
+.main_images{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#saber{
+    width: 20rem;
+    height: 20rem;
+}
+
+#archer{
+    width: 20rem;
+    height: 20rem;
+}
+
+#lancer{
+    width: 20rem;
+    height: 20rem;
+}
+
+.main_buttons{
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    gap: 18rem;
+}
+
+button{
+    width: 4rem;
+    cursor: pointer;
+}
