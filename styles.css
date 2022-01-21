@@ -8,20 +8,28 @@ html{
     font-size: 62.5%;
 }
 
+#main_text{
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+#h1{
+    padding-left: 3rem;
+}
+
 .ppt{
     font-size: 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     list-style: none;
-    gap: 2rem;
-    margin-top: 1rem;
+    gap: 14rem;
+    margin-top: 6rem;
+    padding-left: 10rem;
 }
 
-.main_images{
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+#aleatorio{
+    margin-left: 37rem;
 }
 
 #saber{
@@ -41,12 +49,23 @@ html{
 
 .main_buttons{
     display: flex;
-    justify-content: center;
-    height: 4rem;
-    gap: 18rem;
+    justify-content: left;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding-left: 2rem;
 }
 
 button{
-    width: 4rem;
     cursor: pointer;
+}
+
+#boton_aleatorio{
+    margin-left: 35rem;
+}
+
+#result_text{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 4rem;
 }

@@ -8,23 +8,33 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+<header>
+    <div id="main_text">
+        <h1 id="h1">FGO</h1>
+        <p>Piedra Papel Tijera</p>
+    </div>
+</header>
 <ul class="ppt">
     <li>Saber</li>
     <li>Archer</li>
     <li>Lancer</li>
+    <li id="aleatorio">???</li>
 </ul>
-
 <body>
-    <div class="main_images">
-        <img id="saber" src="photos/saber.png" alt="">
-        <img id="archer" src="photos/archer.png" alt="">
-        <img id="lancer" src="photos/lancer.png" alt="">
-    </div>
     <div class="main_buttons">
-        <button id="boton1">ATK</button>
-        <button id="boton2">ATK</button>
-        <button id="boton3">ATK</button>
+        <div id="botones">
+            <button type="button" id="boton1"> <img id="saber" src="photos/saber.png" alt=""> </button>
+            <button type="button" id="boton2"><img id="archer" src="photos/archer.png" alt=""></button>
+            <button type="button" id="boton3"><img id="lancer" src="photos/lancer.png" alt=""></button>
+        </div>
+        <button type="button" id="boton_aleatorio"><img id="lancer" src="photos/lancer.png" alt=""></button>
     </div>
 </body>
+<footer>
+    <div id="result_text">
+        <h1>Win/Loose</h1>
+    </div>
+</footer>
+<script src="juego.js"></script>
 
 </html>
