@@ -1,5 +1,3 @@
-
-
 var myArray = ['Saber', 'Archer', 'Lancer'];
 var random = Math.floor(Math.random() * myArray.length);
 var rValue = myArray[random];
