@@ -1,11 +1,14 @@
-var myArray = ['saber', 'archer', 'lancer'];
-var rand = Math.floor(Math.random() * myArray.length);
-var rValue = myArray[rand];
+
+
+var myArray = ['Saber', 'Archer', 'Lancer'];
+var random = Math.floor(Math.random() * myArray.length);
+var rValue = myArray[random];
 console.log(rValue)
 
-function ganador(){
-    document.getElementById("aleatorio") = rValue
+function ganador() {
+    document.getElementById("aleatorio").innerHTML = rValue
 };
-document.getElementById("boton1", "boton2", "boton3").onclick = function(){
-    ganador();
-}
+
+document.getElementById("botones").onclick = function () {
+    ganador()
+};

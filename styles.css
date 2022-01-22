@@ -47,6 +47,11 @@ html{
     height: 20rem;
 }
 
+#imagen_aleatoria{
+    width: 20rem;
+    height: 20rem;
+}
+
 .main_buttons{
     display: flex;
     justify-content: left;
