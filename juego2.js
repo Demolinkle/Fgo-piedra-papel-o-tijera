@@ -9,4 +9,3 @@ function randomImagen() {
 
 document.getElementById("botones").onclick = function () {
     randomImagen()
-};
